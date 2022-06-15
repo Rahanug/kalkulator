@@ -1,7 +1,7 @@
 .calculator {
     text-align: center;
-    margin: 0 auto;
-    padding-top: 200px;
+    /* margin: 0 auto; */
+    /* padding-top: 200px; */
 }
 
 .calculator-screen{
@@ -49,3 +49,37 @@ button:hover{
 .operator:hover, .equal-sign:hover{
     background-color: darkorange;
 }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 42%;
+    padding: 50pt 0pt;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    /* align-items: center; */
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .container{
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media only screen and (max-width: 480px) {
+    .card {
+        width: 100%;
+        padding: 0pt;
+        margin: 5pt;
+        /* display: flex; */
+        /* justify-content: center; */
+        /* align-items: center; */
+      }
+  }
+  
